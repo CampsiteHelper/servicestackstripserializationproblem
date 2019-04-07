@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ServiceStack" Version="5.5.0" />
+    <PackageReference Include="Stripe.net" Version="25.4.0" />
+    <PackageReference Include="ServiceStack.Redis" Version="5.5.0" />
+  </ItemGroup>
 </Project>
